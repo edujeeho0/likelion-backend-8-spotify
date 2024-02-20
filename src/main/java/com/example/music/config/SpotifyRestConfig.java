@@ -9,7 +9,7 @@ public class SpotifyRestConfig {
     @Bean
     public RestClient spotifyClient() {
         return RestClient.builder()
-                .baseUrl("https://api.spotify.com/v1/search")
+                .baseUrl("https://api.spotify.com/v1")
                 .build();
     }
 }
